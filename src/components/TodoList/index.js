@@ -4,7 +4,7 @@ import Todo from "../Todo";
 import { useDispatch, useSelector } from "react-redux";
 import { v4 as uuidV4 } from "uuid";
 import { searchRemainingSelector } from "../../redux/selector";
-import { addTodo } from "./todoSlice";
+import { addTodo } from "../../redux/todoSlice";
 
 export default function TodoList() {
   const dispatch = useDispatch();
